@@ -121,7 +121,7 @@ It covered:
 
 ### 3. Exploratory Data Analysis
 
-Notebook: ![03_eda_supply_chain_insights.ipynb](Notebooks/01_data_exploration.ipynb.ipynb)
+Notebook: `03_eda_supply_chain_insights.ipynb`
 
 This notebook answered demand and supply chain questions.
 
