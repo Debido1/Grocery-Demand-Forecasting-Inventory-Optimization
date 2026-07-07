@@ -338,7 +338,7 @@ grocery-demand-forecasting-inventory-optimization/
 ├── dashboard/
 │   └── grocery_supply_chain_dashboard.pbix
 │
-├── images/
+├── Images/
 │   ├── overview_page.png
 │   ├── forecasting_page.png
 │   └── inventory_page.png
