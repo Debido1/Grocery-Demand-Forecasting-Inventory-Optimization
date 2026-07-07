@@ -121,7 +121,8 @@ It covered:
 
 ### 3. Exploratory Data Analysis
 
-Notebook: `03_eda_supply_chain_insights.ipynb`
+Notebook: `03_eda_supply_chain_insights.ipynb`Notebooks/01_data_exploration.ipynb.ipynb
+Notebook: ![03_eda_supply_chain_insights.ipynb](Notebooks/01_data_exploration.ipynb.ipynb)
 
 This notebook answered demand and supply chain questions.
 
@@ -256,7 +257,7 @@ It includes:
 - Forecast model accuracy
 - 30-day forecast by product family
 
-![Forecasting Dashboard](images/forecasting_page.png)
+![Forecasting Dashboard](Images/forcasting_page.png)
 
 ### Page 3: Inventory Optimization
 
@@ -270,7 +271,7 @@ It includes:
 - High-risk items by product family
 - Replenishment risk summary
 
-![Inventory Dashboard](images/inventory_page.png)
+![Inventory Dashboard](Images/inventory_page.png)
 
 ---
 
