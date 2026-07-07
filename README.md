@@ -58,6 +58,7 @@ Main data files used:
 - holidays_events.csv
 
 The original raw dataset is not included in this repository because of file size. The notebook workflow shows how the data was filtered, cleaned, and prepared for analysis.
+To reproduce the project, download the original dataset from Kaggle and place the raw files in a local `data/raw/` folder.
 
 ---
 
@@ -207,6 +208,7 @@ The analysis does not claim confirmed stockouts because the dataset does not inc
 - A 30-day test period was used to evaluate forecasting accuracy.
 - The 7-Day Seasonal Naive model had the best performance across all three product families.
 - ARIMA(1,1,1) was tested, but it did not outperform the weekly seasonal baseline.
+This was an important modelling decision because the final model was selected based on accuracy, not because it was the most complex model.
 - The total 30-day forecast was approximately 3.02M unit sales.
 
 ### Inventory Optimization Insights
@@ -256,7 +258,7 @@ It includes:
 - Forecast model accuracy
 - 30-day forecast by product family
 
-![Forecasting Dashboard](Images/forcasting_page.png)
+![Forecasting Dashboard](Images/forecasting_page.png)
 
 ### Page 3: Inventory Optimization
 
@@ -297,7 +299,14 @@ The analysis helps decision-makers:
 - Identify products with higher potential replenishment risk
 
 ---
+## How to View This Project
 
+1. Open the notebooks in the `notebooks/` folder to follow the Python workflow.
+2. Open the Power BI file in the `dashboard/` folder to view the interactive dashboard.
+3. View the dashboard screenshots in the `images/` folder for a quick preview.
+4. Check the `outputs/` folder for cleaned forecasting and inventory recommendation outputs.
+
+---
 ## Repository Structure
 
 ```text
@@ -329,8 +338,30 @@ grocery-demand-forecasting-inventory-optimization/
 │   └── grocery_supply_chain_dashboard.pbix
 │
 ├── images/
-│   ├── overview_page.png
-│   ├── forecasting_page.png
-│   └── inventory_page.png
+│   ├── ![Overview Dashboard](images/overview_page.png)
+│   ├── ![Forecasting Dashboard](images/forecasting_page.png)
+│   └── ![Inventory Dashboard](images/inventory_page.png)
 │
 └── docs/
+```
+## Skills Demonstrated
+
+- Data exploration
+- Data cleaning
+- Feature engineering
+- Exploratory data analysis
+- Time-series forecasting
+- Forecast model comparison
+- ARIMA modelling
+- ABC inventory analysis
+- Safety stock calculation
+- Reorder point estimation
+- Replenishment risk classification
+- Power BI dashboard design
+- Business insight communication
+
+---
+
+## Author
+
+Deborah Enehi Apochi
