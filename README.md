@@ -241,7 +241,7 @@ It includes:
 - Monthly demand trend
 - Demand matrix by store and product family
 
-![Overview Dashboard](images/overview_page.png)
+![Overview Dashboard](Images/overview_page.png)
 
 ### Page 2: Forecasting
 
