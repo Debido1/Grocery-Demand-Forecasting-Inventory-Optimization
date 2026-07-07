@@ -1,0 +1,4 @@
+family,model,MAE,RMSE,MAPE
+BEVERAGES,7-Day Seasonal Naive,4504.77,5600.4,12.56
+GROCERY I,7-Day Seasonal Naive,4994.13,6428.94,12.81
+PRODUCE,7-Day Seasonal Naive,2320.95,3120.03,7.65
