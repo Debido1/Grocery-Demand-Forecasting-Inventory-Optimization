@@ -301,10 +301,10 @@ The analysis helps decision-makers:
 ---
 ## How to View This Project
 
-1. Open the notebooks in the `notebooks/` folder to follow the Python workflow.
-2. Open the Power BI file in the `dashboard/` folder to view the interactive dashboard.
-3. View the dashboard screenshots in the `images/` folder for a quick preview.
-4. Check the `outputs/` folder for cleaned forecasting and inventory recommendation outputs.
+1. Open the notebooks in the `Notebooks/` folder to follow the Python workflow.
+2. Open the Power BI file in the `Grocery Supply Chain Dashboard.pdf/` folder to view the interactive dashboard.
+3. View the dashboard screenshots in the `Images/` folder for a quick preview.
+4. Check the `Outputs/` folder for cleaned forecasting and inventory recommendation outputs.
 
 ---
 
